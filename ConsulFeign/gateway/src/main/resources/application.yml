@@ -1,0 +1,10 @@
+server:
+  port: 8880
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery: SERVICE-CAR
+  application:
+    name: Gateway
